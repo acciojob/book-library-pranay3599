@@ -2,18 +2,22 @@
 body{
 	background-color:#f8f8f8;
 }
-.page{
+.book-library{
 	display:flex;
 	flex-direction:column;
 	margin:10px 10px;
 }
-.page
+.book{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+}
 .line{
 	width: 100vh;
 	background-color:white;
 }
 h1{
-	text-align:center;
+	
 }
 .price{
 	text-align:center;
